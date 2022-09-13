@@ -23,7 +23,13 @@ namespace IFCDataExtraction
             using (var stepModel = IfcStore.Open($"{filePath}{fileName}.ifc"))
             {
                 //save as XML
-                stepModel.SaveAs($"{filePath}{fileName}.ifcxml");
+                //stepModel.SaveAs($"{filePath}{fileName}.ifcxml");
+
+                var product = (stepModel.Instances.OfType<IfcColumnStandardCase>().LastOrDefault().Representation.Representations.FirstOrDefault().Items.FirstOrDefault() as IfcExtrudedAreaSolid).SweptArea as IfcIShapeProfileDef;
+                var FlangeThickness = product.FlangeThickness;
+                var WebThickness = product.WebThickness;
+                var X = product.Position.Location.X;
+                var y = product.Position.Location.Y;
             }
         }
     }
