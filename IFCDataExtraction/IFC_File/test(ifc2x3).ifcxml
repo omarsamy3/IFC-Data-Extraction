@@ -1,0 +1,1185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ex:iso_10303_28 version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ex="urn:iso.org:standard:10303:part(28):version(2):xmlschema:common" xsi:schemaLocation="urn:iso.org:standard:10303:part(28):version(2):xmlschema:common http://www.iai-tech.org/ifcXML/IFC2x3/FINAL/ex.xsd">
+  <ex:iso_10303_28_header>
+    <ex:name>E:\A1Programming\1My.CEI Program\BIM III\IFC\Dr.Ihab\IFCDataExtraction\IFC_File\test(ifc2x3).ifc</ex:name>
+    <ex:time_stamp>2018-01-01T18:13:20</ex:time_stamp>
+    <ex:author>Win 10 ltsc</ex:author>
+    <ex:organization>None</ex:organization>
+    <ex:preprocessor_version>20.0.0</ex:preprocessor_version>
+    <ex:originating_system>SAP2000</ex:originating_system>
+    <ex:authorization>None</ex:authorization>
+    <ex:documentation>ViewDefinition [CoordinationView]</ex:documentation>
+  </ex:iso_10303_28_header>
+  <uos id="uos_1" description="Xbim IfcXml Export" configuration="i_ifc2x3" edo="" xmlns:ex="urn:iso.org:standard:10303:part(28):version(2):xmlschema:common" xmlns:ifc="http://www.iai-tech.org/ifcXML/IFC2x3/FINAL" xsi:schemaLocation="http://www.iai-tech.org/ifcXML/IFC2x3/FINAL https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/XML/IFC2X3.xsd" xmlns="http://www.iai-tech.org/ifcXML/IFC2x3/FINAL">
+    <IfcRelAggregates id="i1">
+      <GlobalId>0AsRlF7nnA5R1p1M5P$ooB</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory id="i3">
+          <OwningUser>
+            <IfcPersonAndOrganization id="i7">
+              <ThePerson>
+                <IfcPerson id="i11">
+                  <Id>Win 10 ltsc</Id>
+                  <GivenName>Nameless</GivenName>
+                </IfcPerson>
+              </ThePerson>
+              <TheOrganization>
+                <IfcOrganization id="i12">
+                  <Name>None</Name>
+                  <Roles ex:cType="list">
+                    <IfcActorRole id="i34" pos="0">
+                      <Role>structuralengineer</Role>
+                    </IfcActorRole>
+                  </Roles>
+                </IfcOrganization>
+              </TheOrganization>
+            </IfcPersonAndOrganization>
+          </OwningUser>
+          <OwningApplication>
+            <IfcApplication id="i8">
+              <ApplicationDeveloper>
+                <IfcOrganization id="i13">
+                  <Name>Computers &amp; Structures, Inc.</Name>
+                  <Roles ex:cType="list">
+                    <IfcActorRole id="i35" pos="0">
+                      <Role>manufacturer</Role>
+                    </IfcActorRole>
+                  </Roles>
+                </IfcOrganization>
+              </ApplicationDeveloper>
+              <Version>20.0.0</Version>
+              <ApplicationFullName>SAP2000</ApplicationFullName>
+              <ApplicationIdentifier>SAP2000</ApplicationIdentifier>
+            </IfcApplication>
+          </OwningApplication>
+          <ChangeAction>nochange</ChangeAction>
+          <LastModifiedDate>1514768788</LastModifiedDate>
+          <CreationDate>1514768788</CreationDate>
+        </IfcOwnerHistory>
+      </OwnerHistory>
+      <RelatingObject>
+        <IfcProject id="i4">
+          <GlobalId>0GmA6FgY5D0ezSvDfazWzH</GlobalId>
+          <OwnerHistory>
+            <IfcOwnerHistory ref="i3" xsi:nil="true" />
+          </OwnerHistory>
+          <Name>test.sdb</Name>
+          <RepresentationContexts ex:cType="set">
+            <IfcGeometricRepresentationContext id="i9" pos="0">
+              <ContextIdentifier>Project World</ContextIdentifier>
+              <ContextType>Model</ContextType>
+              <CoordinateSpaceDimension>3</CoordinateSpaceDimension>
+              <WorldCoordinateSystem>
+                <IfcAxis2Placement3D id="i14">
+                  <Location>
+                    <IfcCartesianPoint id="i36">
+                      <Coordinates ex:cType="list">
+                        <IfcLengthMeasure pos="0">0</IfcLengthMeasure>
+                        <IfcLengthMeasure pos="1">0</IfcLengthMeasure>
+                        <IfcLengthMeasure pos="2">0</IfcLengthMeasure>
+                      </Coordinates>
+                    </IfcCartesianPoint>
+                  </Location>
+                  <Axis>
+                    <IfcDirection id="i37">
+                      <DirectionRatios ex:cType="list">
+                        <ex:double-wrapper pos="0">0.</ex:double-wrapper>
+                        <ex:double-wrapper pos="1">0.</ex:double-wrapper>
+                        <ex:double-wrapper pos="2">1.</ex:double-wrapper>
+                      </DirectionRatios>
+                    </IfcDirection>
+                  </Axis>
+                  <RefDirection>
+                    <IfcDirection id="i38">
+                      <DirectionRatios ex:cType="list">
+                        <ex:double-wrapper pos="0">1.</ex:double-wrapper>
+                        <ex:double-wrapper pos="1">0.</ex:double-wrapper>
+                        <ex:double-wrapper pos="2">0.</ex:double-wrapper>
+                      </DirectionRatios>
+                    </IfcDirection>
+                  </RefDirection>
+                </IfcAxis2Placement3D>
+              </WorldCoordinateSystem>
+            </IfcGeometricRepresentationContext>
+          </RepresentationContexts>
+          <UnitsInContext>
+            <IfcUnitAssignment id="i10">
+              <Units ex:cType="set">
+                <IfcSIUnit id="i15" pos="0">
+                  <UnitType>lengthunit</UnitType>
+                  <Name>metre</Name>
+                </IfcSIUnit>
+                <IfcSIUnit id="i16" pos="1">
+                  <UnitType>areaunit</UnitType>
+                  <Name>square_metre</Name>
+                </IfcSIUnit>
+                <IfcSIUnit id="i17" pos="2">
+                  <UnitType>volumeunit</UnitType>
+                  <Name>cubic_metre</Name>
+                </IfcSIUnit>
+                <IfcDerivedUnit id="i18" pos="3">
+                  <Elements ex:cType="set">
+                    <IfcDerivedUnitElement id="i39" pos="0">
+                      <Unit>
+                        <IfcSIUnit ref="i15" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>3</Exponent>
+                    </IfcDerivedUnitElement>
+                  </Elements>
+                  <UnitType>sectionmodulusunit</UnitType>
+                </IfcDerivedUnit>
+                <IfcDerivedUnit id="i19" pos="4">
+                  <Elements ex:cType="set">
+                    <IfcDerivedUnitElement id="i40" pos="0">
+                      <Unit>
+                        <IfcSIUnit ref="i15" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>4</Exponent>
+                    </IfcDerivedUnitElement>
+                  </Elements>
+                  <UnitType>momentofinertiaunit</UnitType>
+                </IfcDerivedUnit>
+                <IfcSIUnit id="i20" pos="5">
+                  <UnitType>planeangleunit</UnitType>
+                  <Name>radian</Name>
+                </IfcSIUnit>
+                <IfcSIUnit id="i21" pos="6">
+                  <UnitType>timeunit</UnitType>
+                  <Name>second</Name>
+                </IfcSIUnit>
+                <IfcConversionBasedUnit id="i22" pos="7">
+                  <Dimensions>
+                    <IfcDimensionalExponents id="i41">
+                      <LengthExponent>0</LengthExponent>
+                      <MassExponent>1</MassExponent>
+                      <TimeExponent>0</TimeExponent>
+                      <ElectricCurrentExponent>0</ElectricCurrentExponent>
+                      <ThermodynamicTemperatureExponent>0</ThermodynamicTemperatureExponent>
+                      <AmountOfSubstanceExponent>0</AmountOfSubstanceExponent>
+                      <LuminousIntensityExponent>0</LuminousIntensityExponent>
+                    </IfcDimensionalExponents>
+                  </Dimensions>
+                  <UnitType>massunit</UnitType>
+                  <Name>KILOMUG</Name>
+                  <ConversionFactor>
+                    <IfcMeasureWithUnit id="i42">
+                      <ValueComponent>
+                        <IfcMassMeasure>9806.65</IfcMassMeasure>
+                      </ValueComponent>
+                      <UnitComponent>
+                        <IfcSIUnit id="i63">
+                          <UnitType>massunit</UnitType>
+                          <Prefix>kilo</Prefix>
+                          <Name>gram</Name>
+                        </IfcSIUnit>
+                      </UnitComponent>
+                    </IfcMeasureWithUnit>
+                  </ConversionFactor>
+                </IfcConversionBasedUnit>
+                <IfcDerivedUnit id="i23" pos="8">
+                  <Elements ex:cType="set">
+                    <IfcDerivedUnitElement id="i43" pos="0">
+                      <Unit>
+                        <IfcConversionBasedUnit ref="i22" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>1</Exponent>
+                    </IfcDerivedUnitElement>
+                    <IfcDerivedUnitElement id="i44" pos="1">
+                      <Unit>
+                        <IfcSIUnit ref="i15" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>-3</Exponent>
+                    </IfcDerivedUnitElement>
+                  </Elements>
+                  <UnitType>massdensityunit</UnitType>
+                </IfcDerivedUnit>
+                <IfcConversionBasedUnit id="i24" pos="9">
+                  <Dimensions>
+                    <IfcDimensionalExponents id="i45">
+                      <LengthExponent>1</LengthExponent>
+                      <MassExponent>1</MassExponent>
+                      <TimeExponent>-2</TimeExponent>
+                      <ElectricCurrentExponent>0</ElectricCurrentExponent>
+                      <ThermodynamicTemperatureExponent>0</ThermodynamicTemperatureExponent>
+                      <AmountOfSubstanceExponent>0</AmountOfSubstanceExponent>
+                      <LuminousIntensityExponent>0</LuminousIntensityExponent>
+                    </IfcDimensionalExponents>
+                  </Dimensions>
+                  <UnitType>forceunit</UnitType>
+                  <Name>TON FORCE</Name>
+                  <ConversionFactor>
+                    <IfcMeasureWithUnit id="i46">
+                      <ValueComponent>
+                        <IfcForceMeasure>9806.6502</IfcForceMeasure>
+                      </ValueComponent>
+                      <UnitComponent>
+                        <IfcSIUnit id="i64">
+                          <UnitType>forceunit</UnitType>
+                          <Name>newton</Name>
+                        </IfcSIUnit>
+                      </UnitComponent>
+                    </IfcMeasureWithUnit>
+                  </ConversionFactor>
+                </IfcConversionBasedUnit>
+                <IfcDerivedUnit id="i25" pos="10">
+                  <Elements ex:cType="set">
+                    <IfcDerivedUnitElement id="i47" pos="0">
+                      <Unit>
+                        <IfcSIUnit ref="i15" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>1</Exponent>
+                    </IfcDerivedUnitElement>
+                    <IfcDerivedUnitElement id="i48" pos="1">
+                      <Unit>
+                        <IfcConversionBasedUnit ref="i24" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>1</Exponent>
+                    </IfcDerivedUnitElement>
+                  </Elements>
+                  <UnitType>torqueunit</UnitType>
+                </IfcDerivedUnit>
+                <IfcConversionBasedUnit id="i26" pos="11">
+                  <Dimensions>
+                    <IfcDimensionalExponents id="i49">
+                      <LengthExponent>-1</LengthExponent>
+                      <MassExponent>1</MassExponent>
+                      <TimeExponent>-2</TimeExponent>
+                      <ElectricCurrentExponent>0</ElectricCurrentExponent>
+                      <ThermodynamicTemperatureExponent>0</ThermodynamicTemperatureExponent>
+                      <AmountOfSubstanceExponent>0</AmountOfSubstanceExponent>
+                      <LuminousIntensityExponent>0</LuminousIntensityExponent>
+                    </IfcDimensionalExponents>
+                  </Dimensions>
+                  <UnitType>pressureunit</UnitType>
+                  <Name>TONPERSQMETER</Name>
+                  <ConversionFactor>
+                    <IfcMeasureWithUnit id="i50">
+                      <ValueComponent>
+                        <IfcPressureMeasure>9.80665</IfcPressureMeasure>
+                      </ValueComponent>
+                      <UnitComponent>
+                        <IfcSIUnit id="i65">
+                          <UnitType>pressureunit</UnitType>
+                          <Prefix>kilo</Prefix>
+                          <Name>pascal</Name>
+                        </IfcSIUnit>
+                      </UnitComponent>
+                    </IfcMeasureWithUnit>
+                  </ConversionFactor>
+                </IfcConversionBasedUnit>
+                <IfcDerivedUnit id="i27" pos="12">
+                  <Elements ex:cType="set">
+                    <IfcDerivedUnitElement id="i51" pos="0">
+                      <Unit>
+                        <IfcSIUnit ref="i15" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>-1</Exponent>
+                    </IfcDerivedUnitElement>
+                    <IfcDerivedUnitElement id="i52" pos="1">
+                      <Unit>
+                        <IfcConversionBasedUnit ref="i24" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>1</Exponent>
+                    </IfcDerivedUnitElement>
+                  </Elements>
+                  <UnitType>linearforceunit</UnitType>
+                </IfcDerivedUnit>
+                <IfcDerivedUnit id="i28" pos="13">
+                  <Elements ex:cType="set">
+                    <IfcDerivedUnitElement id="i53" pos="0">
+                      <Unit>
+                        <IfcSIUnit ref="i15" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>-2</Exponent>
+                    </IfcDerivedUnitElement>
+                    <IfcDerivedUnitElement id="i54" pos="1">
+                      <Unit>
+                        <IfcConversionBasedUnit ref="i24" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>1</Exponent>
+                    </IfcDerivedUnitElement>
+                  </Elements>
+                  <UnitType>planarforceunit</UnitType>
+                </IfcDerivedUnit>
+                <IfcDerivedUnit id="i29" pos="14">
+                  <Elements ex:cType="set">
+                    <IfcDerivedUnitElement id="i55" pos="0">
+                      <Unit>
+                        <IfcConversionBasedUnit ref="i24" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>1</Exponent>
+                    </IfcDerivedUnitElement>
+                    <IfcDerivedUnitElement id="i56" pos="1">
+                      <Unit>
+                        <IfcSIUnit ref="i15" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>1</Exponent>
+                    </IfcDerivedUnitElement>
+                    <IfcDerivedUnitElement id="i57" pos="2">
+                      <Unit>
+                        <IfcSIUnit ref="i15" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>-1</Exponent>
+                    </IfcDerivedUnitElement>
+                  </Elements>
+                  <UnitType>linearmomentunit</UnitType>
+                </IfcDerivedUnit>
+                <IfcDerivedUnit id="i30" pos="15">
+                  <Elements ex:cType="set">
+                    <IfcDerivedUnitElement id="i58" pos="0">
+                      <Unit>
+                        <IfcSIUnit ref="i15" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>-2</Exponent>
+                    </IfcDerivedUnitElement>
+                    <IfcDerivedUnitElement id="i59" pos="1">
+                      <Unit>
+                        <IfcConversionBasedUnit ref="i24" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>1</Exponent>
+                    </IfcDerivedUnitElement>
+                  </Elements>
+                  <UnitType>shearmodulusunit</UnitType>
+                </IfcDerivedUnit>
+                <IfcDerivedUnit id="i31" pos="16">
+                  <Elements ex:cType="set">
+                    <IfcDerivedUnitElement id="i60" pos="0">
+                      <Unit>
+                        <IfcSIUnit ref="i15" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>-2</Exponent>
+                    </IfcDerivedUnitElement>
+                    <IfcDerivedUnitElement id="i61" pos="1">
+                      <Unit>
+                        <IfcConversionBasedUnit ref="i24" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>1</Exponent>
+                    </IfcDerivedUnitElement>
+                  </Elements>
+                  <UnitType>modulusofelasticityunit</UnitType>
+                </IfcDerivedUnit>
+                <IfcSIUnit id="i32" pos="17">
+                  <UnitType>thermodynamictemperatureunit</UnitType>
+                  <Name>degree_celsius</Name>
+                </IfcSIUnit>
+                <IfcDerivedUnit id="i33" pos="18">
+                  <Elements ex:cType="set">
+                    <IfcDerivedUnitElement id="i62" pos="0">
+                      <Unit>
+                        <IfcSIUnit ref="i32" xsi:nil="true" />
+                      </Unit>
+                      <Exponent>-1</Exponent>
+                    </IfcDerivedUnitElement>
+                  </Elements>
+                  <UnitType>thermalexpansioncoefficientunit</UnitType>
+                </IfcDerivedUnit>
+              </Units>
+            </IfcUnitAssignment>
+          </UnitsInContext>
+        </IfcProject>
+      </RelatingObject>
+      <RelatedObjects ex:cType="set">
+        <IfcSite id="i5" pos="0">
+          <GlobalId>1P2xQ9xCLFHP6vlaVlWDmm</GlobalId>
+          <OwnerHistory>
+            <IfcOwnerHistory ref="i3" xsi:nil="true" />
+          </OwnerHistory>
+          <Name>Default Site</Name>
+          <CompositionType>element</CompositionType>
+        </IfcSite>
+      </RelatedObjects>
+    </IfcRelAggregates>
+    <IfcRelAggregates id="i2">
+      <GlobalId>2xBsE09wXFwAb1$WGAm0M5</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i3" xsi:nil="true" />
+      </OwnerHistory>
+      <RelatingObject>
+        <IfcSite ref="i5" xsi:nil="true" />
+      </RelatingObject>
+      <RelatedObjects ex:cType="set">
+        <IfcBuilding id="i6" pos="0">
+          <GlobalId>0DAyExVuXBu8W3SXjHSy4s</GlobalId>
+          <OwnerHistory>
+            <IfcOwnerHistory ref="i3" xsi:nil="true" />
+          </OwnerHistory>
+          <Name>Default Building</Name>
+          <CompositionType>element</CompositionType>
+        </IfcBuilding>
+      </RelatedObjects>
+    </IfcRelAggregates>
+    <IfcStructuralProfileProperties id="i66">
+      <ProfileName>FSEC1</ProfileName>
+      <ProfileDefinition>
+        <IfcIShapeProfileDef id="i70">
+          <ProfileType>area</ProfileType>
+          <ProfileName>FSEC1</ProfileName>
+          <Position>
+            <IfcAxis2Placement2D id="i82">
+              <Location>
+                <IfcCartesianPoint id="i85">
+                  <Coordinates ex:cType="list">
+                    <IfcLengthMeasure pos="0">0</IfcLengthMeasure>
+                    <IfcLengthMeasure pos="1">0</IfcLengthMeasure>
+                  </Coordinates>
+                </IfcCartesianPoint>
+              </Location>
+              <RefDirection>
+                <IfcDirection id="i86">
+                  <DirectionRatios ex:cType="list">
+                    <ex:double-wrapper pos="0">1.</ex:double-wrapper>
+                    <ex:double-wrapper pos="1">0.</ex:double-wrapper>
+                  </DirectionRatios>
+                </IfcDirection>
+              </RefDirection>
+            </IfcAxis2Placement2D>
+          </Position>
+          <OverallWidth>0.127</OverallWidth>
+          <OverallDepth>0.3048</OverallDepth>
+          <WebThickness>0.00635</WebThickness>
+          <FlangeThickness>0.009652</FlangeThickness>
+        </IfcIShapeProfileDef>
+      </ProfileDefinition>
+      <CrossSectionArea>0.0042645076</CrossSectionArea>
+      <TorsionalConstantX>9.6511768E-08</TorsionalConstantX>
+      <MomentOfInertiaY>6.5724175E-05</MomentOfInertiaY>
+      <MomentOfInertiaZ>3.3012572E-06</MomentOfInertiaZ>
+      <ShearDeformationAreaZ>0.00193548</ShearDeformationAreaZ>
+      <ShearDeformationAreaY>0.0020430067</ShearDeformationAreaY>
+      <MaximumSectionModulusY>0.00043126099</MaximumSectionModulusY>
+      <MinimumSectionModulusY>0.00043126099</MinimumSectionModulusY>
+      <MaximumSectionModulusZ>5.1988302E-05</MaximumSectionModulusZ>
+      <MinimumSectionModulusZ>5.1988302E-05</MinimumSectionModulusZ>
+    </IfcStructuralProfileProperties>
+    <IfcColumn id="i67">
+      <GlobalId>1GDno$4xPCIefEAouuGSir</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory id="i71">
+          <OwningUser>
+            <IfcPersonAndOrganization ref="i7" xsi:nil="true" />
+          </OwningUser>
+          <OwningApplication>
+            <IfcApplication ref="i8" xsi:nil="true" />
+          </OwningApplication>
+          <ChangeAction>modified</ChangeAction>
+          <LastModifiedDate>1514768788</LastModifiedDate>
+          <CreationDate>1514768788</CreationDate>
+        </IfcOwnerHistory>
+      </OwnerHistory>
+      <Name>1</Name>
+      <ObjectPlacement>
+        <IfcLocalPlacement id="i72">
+          <RelativePlacement>
+            <IfcAxis2Placement3D id="i83">
+              <Location>
+                <IfcCartesianPoint id="i87">
+                  <Coordinates ex:cType="list">
+                    <IfcLengthMeasure pos="0">0</IfcLengthMeasure>
+                    <IfcLengthMeasure pos="1">0</IfcLengthMeasure>
+                    <IfcLengthMeasure pos="2">0</IfcLengthMeasure>
+                  </Coordinates>
+                </IfcCartesianPoint>
+              </Location>
+              <Axis>
+                <IfcDirection id="i88">
+                  <DirectionRatios ex:cType="list">
+                    <ex:double-wrapper pos="0">0.</ex:double-wrapper>
+                    <ex:double-wrapper pos="1">0.</ex:double-wrapper>
+                    <ex:double-wrapper pos="2">1.</ex:double-wrapper>
+                  </DirectionRatios>
+                </IfcDirection>
+              </Axis>
+              <RefDirection>
+                <IfcDirection id="i89">
+                  <DirectionRatios ex:cType="list">
+                    <ex:double-wrapper pos="0">0.</ex:double-wrapper>
+                    <ex:double-wrapper pos="1">-1.</ex:double-wrapper>
+                    <ex:double-wrapper pos="2">0.</ex:double-wrapper>
+                  </DirectionRatios>
+                </IfcDirection>
+              </RefDirection>
+            </IfcAxis2Placement3D>
+          </RelativePlacement>
+        </IfcLocalPlacement>
+      </ObjectPlacement>
+      <Representation>
+        <IfcProductDefinitionShape id="i73">
+          <Representations ex:cType="list">
+            <IfcShapeRepresentation id="i84" pos="0">
+              <ContextOfItems>
+                <IfcGeometricRepresentationContext ref="i9" xsi:nil="true" />
+              </ContextOfItems>
+              <RepresentationIdentifier>Body</RepresentationIdentifier>
+              <RepresentationType>SweptSolid</RepresentationType>
+              <Items ex:cType="set">
+                <IfcExtrudedAreaSolid id="i90" pos="0">
+                  <SweptArea>
+                    <IfcIShapeProfileDef ref="i70" xsi:nil="true" />
+                  </SweptArea>
+                  <Position>
+                    <IfcAxis2Placement3D ref="i14" xsi:nil="true" />
+                  </Position>
+                  <ExtrudedDirection>
+                    <IfcDirection ref="i37" xsi:nil="true" />
+                  </ExtrudedDirection>
+                  <Depth>3</Depth>
+                </IfcExtrudedAreaSolid>
+              </Items>
+            </IfcShapeRepresentation>
+          </Representations>
+        </IfcProductDefinitionShape>
+      </Representation>
+    </IfcColumn>
+    <IfcExtendedMaterialProperties id="i68">
+      <Material>
+        <IfcMaterial id="i74">
+          <Name>A992Fy50</Name>
+        </IfcMaterial>
+      </Material>
+      <ExtendedProperties ex:cType="set">
+        <IfcPropertySingleValue id="i75" pos="0">
+          <Name>MassDensity</Name>
+          <NominalValue>
+            <IfcMassDensityMeasure>0.80038007</IfcMassDensityMeasure>
+          </NominalValue>
+          <Unit>
+            <IfcDerivedUnit ref="i23" xsi:nil="true" />
+          </Unit>
+        </IfcPropertySingleValue>
+        <IfcPropertySingleValue id="i76" pos="1">
+          <Name>PoissonRatio</Name>
+          <NominalValue>
+            <IfcRatioMeasure>0.3</IfcRatioMeasure>
+          </NominalValue>
+        </IfcPropertySingleValue>
+        <IfcPropertySingleValue id="i77" pos="2">
+          <Name>ShearModulus</Name>
+          <NominalValue>
+            <IfcShearModulusMeasure>7841930.4</IfcShearModulusMeasure>
+          </NominalValue>
+          <Unit>
+            <IfcDerivedUnit ref="i30" xsi:nil="true" />
+          </Unit>
+        </IfcPropertySingleValue>
+        <IfcPropertySingleValue id="i78" pos="3">
+          <Name>ThermalExpansionCoefficient</Name>
+          <NominalValue>
+            <IfcThermalExpansionCoefficientMeasure>1.1699999E-05</IfcThermalExpansionCoefficientMeasure>
+          </NominalValue>
+          <Unit>
+            <IfcDerivedUnit ref="i33" xsi:nil="true" />
+          </Unit>
+        </IfcPropertySingleValue>
+        <IfcPropertySingleValue id="i79" pos="4">
+          <Name>UltimateStress</Name>
+          <NominalValue>
+            <IfcPressureMeasure>45699.526</IfcPressureMeasure>
+          </NominalValue>
+          <Unit>
+            <IfcConversionBasedUnit ref="i26" xsi:nil="true" />
+          </Unit>
+        </IfcPropertySingleValue>
+        <IfcPropertySingleValue id="i80" pos="5">
+          <Name>YieldStress</Name>
+          <NominalValue>
+            <IfcPressureMeasure>35153.481</IfcPressureMeasure>
+          </NominalValue>
+          <Unit>
+            <IfcConversionBasedUnit ref="i26" xsi:nil="true" />
+          </Unit>
+        </IfcPropertySingleValue>
+        <IfcPropertySingleValue id="i81" pos="6">
+          <Name>YoungModulus</Name>
+          <NominalValue>
+            <IfcModulusOfElasticityMeasure>20389019</IfcModulusOfElasticityMeasure>
+          </NominalValue>
+          <Unit>
+            <IfcDerivedUnit ref="i31" xsi:nil="true" />
+          </Unit>
+        </IfcPropertySingleValue>
+      </ExtendedProperties>
+      <Name>A992Fy50</Name>
+    </IfcExtendedMaterialProperties>
+    <IfcRelAssociatesMaterial id="i69">
+      <GlobalId>2f9EyrrWP5fOrZLPd7sTqt</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i3" xsi:nil="true" />
+      </OwnerHistory>
+      <RelatedObjects ex:cType="set">
+        <IfcColumn ref="i67" xsi:nil="true" pos="0" />
+      </RelatedObjects>
+      <RelatingMaterial>
+        <IfcMaterial ref="i74" xsi:nil="true" />
+      </RelatingMaterial>
+    </IfcRelAssociatesMaterial>
+    <IfcStructuralProfileProperties id="i91">
+      <ProfileName>FSEC3</ProfileName>
+      <ProfileDefinition>
+        <IfcRectangleProfileDef id="i95">
+          <ProfileType>area</ProfileType>
+          <ProfileName>FSEC3</ProfileName>
+          <Position>
+            <IfcAxis2Placement2D ref="i82" xsi:nil="true" />
+          </Position>
+          <XDim>0.254</XDim>
+          <YDim>0.4572</YDim>
+        </IfcRectangleProfileDef>
+      </ProfileDefinition>
+      <CrossSectionArea>0.1161288</CrossSectionArea>
+      <TorsionalConstantX>0.0016302413</TorsionalConstantX>
+      <MomentOfInertiaY>0.0020228847</MomentOfInertiaY>
+      <MomentOfInertiaZ>0.00062434714</MomentOfInertiaZ>
+      <ShearDeformationAreaZ>0.096774</ShearDeformationAreaZ>
+      <ShearDeformationAreaY>0.096774</ShearDeformationAreaY>
+      <MaximumSectionModulusY>0.0088490146</MaximumSectionModulusY>
+      <MinimumSectionModulusY>0.0088490146</MinimumSectionModulusY>
+      <MaximumSectionModulusZ>0.0049161192</MaximumSectionModulusZ>
+      <MinimumSectionModulusZ>0.0049161192</MinimumSectionModulusZ>
+    </IfcStructuralProfileProperties>
+    <IfcColumn id="i92">
+      <GlobalId>2ZigEgLnj9weTYcCrZIJWb</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i71" xsi:nil="true" />
+      </OwnerHistory>
+      <Name>2</Name>
+      <ObjectPlacement>
+        <IfcLocalPlacement id="i96">
+          <RelativePlacement>
+            <IfcAxis2Placement3D id="i105">
+              <Location>
+                <IfcCartesianPoint id="i107">
+                  <Coordinates ex:cType="list">
+                    <IfcLengthMeasure pos="0">6</IfcLengthMeasure>
+                    <IfcLengthMeasure pos="1">0</IfcLengthMeasure>
+                    <IfcLengthMeasure pos="2">3</IfcLengthMeasure>
+                  </Coordinates>
+                </IfcCartesianPoint>
+              </Location>
+              <Axis>
+                <IfcDirection id="i108">
+                  <DirectionRatios ex:cType="list">
+                    <ex:double-wrapper pos="0">0.</ex:double-wrapper>
+                    <ex:double-wrapper pos="1">0.</ex:double-wrapper>
+                    <ex:double-wrapper pos="2">-1.</ex:double-wrapper>
+                  </DirectionRatios>
+                </IfcDirection>
+              </Axis>
+              <RefDirection>
+                <IfcDirection id="i109">
+                  <DirectionRatios ex:cType="list">
+                    <ex:double-wrapper pos="0">0.</ex:double-wrapper>
+                    <ex:double-wrapper pos="1">1.</ex:double-wrapper>
+                    <ex:double-wrapper pos="2">0.</ex:double-wrapper>
+                  </DirectionRatios>
+                </IfcDirection>
+              </RefDirection>
+            </IfcAxis2Placement3D>
+          </RelativePlacement>
+        </IfcLocalPlacement>
+      </ObjectPlacement>
+      <Representation>
+        <IfcProductDefinitionShape id="i97">
+          <Representations ex:cType="list">
+            <IfcShapeRepresentation id="i106" pos="0">
+              <ContextOfItems>
+                <IfcGeometricRepresentationContext ref="i9" xsi:nil="true" />
+              </ContextOfItems>
+              <RepresentationIdentifier>Body</RepresentationIdentifier>
+              <RepresentationType>SweptSolid</RepresentationType>
+              <Items ex:cType="set">
+                <IfcExtrudedAreaSolid id="i110" pos="0">
+                  <SweptArea>
+                    <IfcRectangleProfileDef ref="i95" xsi:nil="true" />
+                  </SweptArea>
+                  <Position>
+                    <IfcAxis2Placement3D ref="i14" xsi:nil="true" />
+                  </Position>
+                  <ExtrudedDirection>
+                    <IfcDirection ref="i37" xsi:nil="true" />
+                  </ExtrudedDirection>
+                  <Depth>3</Depth>
+                </IfcExtrudedAreaSolid>
+              </Items>
+            </IfcShapeRepresentation>
+          </Representations>
+        </IfcProductDefinitionShape>
+      </Representation>
+    </IfcColumn>
+    <IfcExtendedMaterialProperties id="i93">
+      <Material>
+        <IfcMaterial id="i98">
+          <Name>4000Psi</Name>
+        </IfcMaterial>
+      </Material>
+      <ExtendedProperties ex:cType="set">
+        <IfcPropertySingleValue id="i99" pos="0">
+          <Name>CompressiveStrength</Name>
+          <NominalValue>
+            <IfcPressureMeasure>2812.2785</IfcPressureMeasure>
+          </NominalValue>
+          <Unit>
+            <IfcConversionBasedUnit ref="i26" xsi:nil="true" />
+          </Unit>
+        </IfcPropertySingleValue>
+        <IfcPropertySingleValue id="i100" pos="1">
+          <Name>MassDensity</Name>
+          <NominalValue>
+            <IfcMassDensityMeasure>0.24501431</IfcMassDensityMeasure>
+          </NominalValue>
+          <Unit>
+            <IfcDerivedUnit ref="i23" xsi:nil="true" />
+          </Unit>
+        </IfcPropertySingleValue>
+        <IfcPropertySingleValue id="i101" pos="2">
+          <Name>PoissonRatio</Name>
+          <NominalValue>
+            <IfcRatioMeasure>0.2</IfcRatioMeasure>
+          </NominalValue>
+        </IfcPropertySingleValue>
+        <IfcPropertySingleValue id="i102" pos="3">
+          <Name>ShearModulus</Name>
+          <NominalValue>
+            <IfcShearModulusMeasure>1056068.1</IfcShearModulusMeasure>
+          </NominalValue>
+          <Unit>
+            <IfcDerivedUnit ref="i30" xsi:nil="true" />
+          </Unit>
+        </IfcPropertySingleValue>
+        <IfcPropertySingleValue id="i103" pos="4">
+          <Name>ThermalExpansionCoefficient</Name>
+          <NominalValue>
+            <IfcThermalExpansionCoefficientMeasure>9.8999995E-06</IfcThermalExpansionCoefficientMeasure>
+          </NominalValue>
+          <Unit>
+            <IfcDerivedUnit ref="i33" xsi:nil="true" />
+          </Unit>
+        </IfcPropertySingleValue>
+        <IfcPropertySingleValue id="i104" pos="5">
+          <Name>YoungModulus</Name>
+          <NominalValue>
+            <IfcModulusOfElasticityMeasure>2534563.5</IfcModulusOfElasticityMeasure>
+          </NominalValue>
+          <Unit>
+            <IfcDerivedUnit ref="i31" xsi:nil="true" />
+          </Unit>
+        </IfcPropertySingleValue>
+      </ExtendedProperties>
+      <Name>4000Psi</Name>
+    </IfcExtendedMaterialProperties>
+    <IfcRelAssociatesMaterial id="i94">
+      <GlobalId>2RJOykYPP4I8dip2_ObDEd</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i3" xsi:nil="true" />
+      </OwnerHistory>
+      <RelatedObjects ex:cType="set">
+        <IfcColumn ref="i92" xsi:nil="true" pos="0" />
+      </RelatedObjects>
+      <RelatingMaterial>
+        <IfcMaterial ref="i98" xsi:nil="true" />
+      </RelatingMaterial>
+    </IfcRelAssociatesMaterial>
+    <IfcColumn id="i111">
+      <GlobalId>2xiJPcNJD46xHOd7AMLkfV</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i71" xsi:nil="true" />
+      </OwnerHistory>
+      <Name>6</Name>
+      <ObjectPlacement>
+        <IfcLocalPlacement id="i113">
+          <RelativePlacement>
+            <IfcAxis2Placement3D id="i115">
+              <Location>
+                <IfcCartesianPoint id="i117">
+                  <Coordinates ex:cType="list">
+                    <IfcLengthMeasure pos="0">12</IfcLengthMeasure>
+                    <IfcLengthMeasure pos="1">0</IfcLengthMeasure>
+                    <IfcLengthMeasure pos="2">3</IfcLengthMeasure>
+                  </Coordinates>
+                </IfcCartesianPoint>
+              </Location>
+              <Axis>
+                <IfcDirection ref="i108" xsi:nil="true" />
+              </Axis>
+              <RefDirection>
+                <IfcDirection ref="i109" xsi:nil="true" />
+              </RefDirection>
+            </IfcAxis2Placement3D>
+          </RelativePlacement>
+        </IfcLocalPlacement>
+      </ObjectPlacement>
+      <Representation>
+        <IfcProductDefinitionShape id="i114">
+          <Representations ex:cType="list">
+            <IfcShapeRepresentation id="i116" pos="0">
+              <ContextOfItems>
+                <IfcGeometricRepresentationContext ref="i9" xsi:nil="true" />
+              </ContextOfItems>
+              <RepresentationIdentifier>Body</RepresentationIdentifier>
+              <RepresentationType>SweptSolid</RepresentationType>
+              <Items ex:cType="set">
+                <IfcExtrudedAreaSolid id="i118" pos="0">
+                  <SweptArea>
+                    <IfcIShapeProfileDef ref="i70" xsi:nil="true" />
+                  </SweptArea>
+                  <Position>
+                    <IfcAxis2Placement3D ref="i14" xsi:nil="true" />
+                  </Position>
+                  <ExtrudedDirection>
+                    <IfcDirection ref="i37" xsi:nil="true" />
+                  </ExtrudedDirection>
+                  <Depth>3</Depth>
+                </IfcExtrudedAreaSolid>
+              </Items>
+            </IfcShapeRepresentation>
+          </Representations>
+        </IfcProductDefinitionShape>
+      </Representation>
+    </IfcColumn>
+    <IfcRelAssociatesMaterial id="i112">
+      <GlobalId>0hEbzlHzP0ahSRaIwepIB$</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i3" xsi:nil="true" />
+      </OwnerHistory>
+      <RelatedObjects ex:cType="set">
+        <IfcColumn ref="i111" xsi:nil="true" pos="0" />
+      </RelatedObjects>
+      <RelatingMaterial>
+        <IfcMaterial ref="i74" xsi:nil="true" />
+      </RelatingMaterial>
+    </IfcRelAssociatesMaterial>
+    <IfcColumn id="i119">
+      <GlobalId>3qz0CI00z4mAKKfQ8Y1t_X</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i71" xsi:nil="true" />
+      </OwnerHistory>
+      <Name>7</Name>
+      <ObjectPlacement>
+        <IfcLocalPlacement id="i121">
+          <RelativePlacement>
+            <IfcAxis2Placement3D id="i123">
+              <Location>
+                <IfcCartesianPoint id="i125">
+                  <Coordinates ex:cType="list">
+                    <IfcLengthMeasure pos="0">0</IfcLengthMeasure>
+                    <IfcLengthMeasure pos="1">6</IfcLengthMeasure>
+                    <IfcLengthMeasure pos="2">3</IfcLengthMeasure>
+                  </Coordinates>
+                </IfcCartesianPoint>
+              </Location>
+              <Axis>
+                <IfcDirection ref="i108" xsi:nil="true" />
+              </Axis>
+              <RefDirection>
+                <IfcDirection ref="i109" xsi:nil="true" />
+              </RefDirection>
+            </IfcAxis2Placement3D>
+          </RelativePlacement>
+        </IfcLocalPlacement>
+      </ObjectPlacement>
+      <Representation>
+        <IfcProductDefinitionShape id="i122">
+          <Representations ex:cType="list">
+            <IfcShapeRepresentation id="i124" pos="0">
+              <ContextOfItems>
+                <IfcGeometricRepresentationContext ref="i9" xsi:nil="true" />
+              </ContextOfItems>
+              <RepresentationIdentifier>Body</RepresentationIdentifier>
+              <RepresentationType>SweptSolid</RepresentationType>
+              <Items ex:cType="set">
+                <IfcExtrudedAreaSolid id="i126" pos="0">
+                  <SweptArea>
+                    <IfcRectangleProfileDef ref="i95" xsi:nil="true" />
+                  </SweptArea>
+                  <Position>
+                    <IfcAxis2Placement3D ref="i14" xsi:nil="true" />
+                  </Position>
+                  <ExtrudedDirection>
+                    <IfcDirection ref="i37" xsi:nil="true" />
+                  </ExtrudedDirection>
+                  <Depth>3</Depth>
+                </IfcExtrudedAreaSolid>
+              </Items>
+            </IfcShapeRepresentation>
+          </Representations>
+        </IfcProductDefinitionShape>
+      </Representation>
+    </IfcColumn>
+    <IfcRelAssociatesMaterial id="i120">
+      <GlobalId>1O9H_eAyv0TgorAGTqiho9</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i3" xsi:nil="true" />
+      </OwnerHistory>
+      <RelatedObjects ex:cType="set">
+        <IfcColumn ref="i119" xsi:nil="true" pos="0" />
+      </RelatedObjects>
+      <RelatingMaterial>
+        <IfcMaterial ref="i98" xsi:nil="true" />
+      </RelatingMaterial>
+    </IfcRelAssociatesMaterial>
+    <IfcStructuralProfileProperties id="i127">
+      <ProfileName>FSEC2</ProfileName>
+      <ProfileDefinition>
+        <IfcIShapeProfileDef id="i130">
+          <ProfileType>area</ProfileType>
+          <ProfileName>FSEC2</ProfileName>
+          <Position>
+            <IfcAxis2Placement2D ref="i82" xsi:nil="true" />
+          </Position>
+          <OverallWidth>0.127</OverallWidth>
+          <OverallDepth>0.3048</OverallDepth>
+          <WebThickness>0.00635</WebThickness>
+          <FlangeThickness>0.009652</FlangeThickness>
+        </IfcIShapeProfileDef>
+      </ProfileDefinition>
+      <CrossSectionArea>0.0042645076</CrossSectionArea>
+      <TorsionalConstantX>9.6511768E-08</TorsionalConstantX>
+      <MomentOfInertiaY>6.5724175E-05</MomentOfInertiaY>
+      <MomentOfInertiaZ>3.3012572E-06</MomentOfInertiaZ>
+      <ShearDeformationAreaZ>0.00193548</ShearDeformationAreaZ>
+      <ShearDeformationAreaY>0.0020430067</ShearDeformationAreaY>
+      <MaximumSectionModulusY>0.00043126099</MaximumSectionModulusY>
+      <MinimumSectionModulusY>0.00043126099</MinimumSectionModulusY>
+      <MaximumSectionModulusZ>5.1988302E-05</MaximumSectionModulusZ>
+      <MinimumSectionModulusZ>5.1988302E-05</MinimumSectionModulusZ>
+    </IfcStructuralProfileProperties>
+    <IfcBeam id="i128">
+      <GlobalId>2AxGXgvCn7EuNM7p6Z9o6c</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i71" xsi:nil="true" />
+      </OwnerHistory>
+      <Name>8</Name>
+      <ObjectPlacement>
+        <IfcLocalPlacement id="i131">
+          <RelativePlacement>
+            <IfcAxis2Placement3D id="i133">
+              <Location>
+                <IfcCartesianPoint ref="i117" xsi:nil="true" />
+              </Location>
+              <Axis>
+                <IfcDirection id="i135">
+                  <DirectionRatios ex:cType="list">
+                    <ex:double-wrapper pos="0">-1.</ex:double-wrapper>
+                    <ex:double-wrapper pos="1">0.</ex:double-wrapper>
+                    <ex:double-wrapper pos="2">0.</ex:double-wrapper>
+                  </DirectionRatios>
+                </IfcDirection>
+              </Axis>
+              <RefDirection>
+                <IfcDirection ref="i89" xsi:nil="true" />
+              </RefDirection>
+            </IfcAxis2Placement3D>
+          </RelativePlacement>
+        </IfcLocalPlacement>
+      </ObjectPlacement>
+      <Representation>
+        <IfcProductDefinitionShape id="i132">
+          <Representations ex:cType="list">
+            <IfcShapeRepresentation id="i134" pos="0">
+              <ContextOfItems>
+                <IfcGeometricRepresentationContext ref="i9" xsi:nil="true" />
+              </ContextOfItems>
+              <RepresentationIdentifier>Body</RepresentationIdentifier>
+              <RepresentationType>SweptSolid</RepresentationType>
+              <Items ex:cType="set">
+                <IfcExtrudedAreaSolid id="i136" pos="0">
+                  <SweptArea>
+                    <IfcIShapeProfileDef ref="i130" xsi:nil="true" />
+                  </SweptArea>
+                  <Position>
+                    <IfcAxis2Placement3D ref="i14" xsi:nil="true" />
+                  </Position>
+                  <ExtrudedDirection>
+                    <IfcDirection ref="i37" xsi:nil="true" />
+                  </ExtrudedDirection>
+                  <Depth>6</Depth>
+                </IfcExtrudedAreaSolid>
+              </Items>
+            </IfcShapeRepresentation>
+          </Representations>
+        </IfcProductDefinitionShape>
+      </Representation>
+    </IfcBeam>
+    <IfcRelAssociatesMaterial id="i129">
+      <GlobalId>3U83C29Bv0HxWijiIRtAl1</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i3" xsi:nil="true" />
+      </OwnerHistory>
+      <RelatedObjects ex:cType="set">
+        <IfcBeam ref="i128" xsi:nil="true" pos="0" />
+      </RelatedObjects>
+      <RelatingMaterial>
+        <IfcMaterial ref="i74" xsi:nil="true" />
+      </RelatingMaterial>
+    </IfcRelAssociatesMaterial>
+    <IfcBeam id="i137">
+      <GlobalId>3S3N0DsXnBA8WL1ZMldPK5</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i71" xsi:nil="true" />
+      </OwnerHistory>
+      <Name>9</Name>
+      <ObjectPlacement>
+        <IfcLocalPlacement id="i139">
+          <RelativePlacement>
+            <IfcAxis2Placement3D id="i141">
+              <Location>
+                <IfcCartesianPoint ref="i107" xsi:nil="true" />
+              </Location>
+              <Axis>
+                <IfcDirection ref="i135" xsi:nil="true" />
+              </Axis>
+              <RefDirection>
+                <IfcDirection ref="i89" xsi:nil="true" />
+              </RefDirection>
+            </IfcAxis2Placement3D>
+          </RelativePlacement>
+        </IfcLocalPlacement>
+      </ObjectPlacement>
+      <Representation>
+        <IfcProductDefinitionShape id="i140">
+          <Representations ex:cType="list">
+            <IfcShapeRepresentation id="i142" pos="0">
+              <ContextOfItems>
+                <IfcGeometricRepresentationContext ref="i9" xsi:nil="true" />
+              </ContextOfItems>
+              <RepresentationIdentifier>Body</RepresentationIdentifier>
+              <RepresentationType>SweptSolid</RepresentationType>
+              <Items ex:cType="set">
+                <IfcExtrudedAreaSolid id="i143" pos="0">
+                  <SweptArea>
+                    <IfcIShapeProfileDef ref="i130" xsi:nil="true" />
+                  </SweptArea>
+                  <Position>
+                    <IfcAxis2Placement3D ref="i14" xsi:nil="true" />
+                  </Position>
+                  <ExtrudedDirection>
+                    <IfcDirection ref="i37" xsi:nil="true" />
+                  </ExtrudedDirection>
+                  <Depth>6</Depth>
+                </IfcExtrudedAreaSolid>
+              </Items>
+            </IfcShapeRepresentation>
+          </Representations>
+        </IfcProductDefinitionShape>
+      </Representation>
+    </IfcBeam>
+    <IfcRelAssociatesMaterial id="i138">
+      <GlobalId>3v4NWc5eLBe8olje1CbSwa</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i3" xsi:nil="true" />
+      </OwnerHistory>
+      <RelatedObjects ex:cType="set">
+        <IfcBeam ref="i137" xsi:nil="true" pos="0" />
+      </RelatedObjects>
+      <RelatingMaterial>
+        <IfcMaterial ref="i74" xsi:nil="true" />
+      </RelatingMaterial>
+    </IfcRelAssociatesMaterial>
+    <IfcBeam id="i144">
+      <GlobalId>1$rhgvzuDFhR0uuppgrRGR</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i71" xsi:nil="true" />
+      </OwnerHistory>
+      <Name>10</Name>
+      <ObjectPlacement>
+        <IfcLocalPlacement id="i146">
+          <RelativePlacement>
+            <IfcAxis2Placement3D id="i148">
+              <Location>
+                <IfcCartesianPoint ref="i125" xsi:nil="true" />
+              </Location>
+              <Axis>
+                <IfcDirection ref="i89" xsi:nil="true" />
+              </Axis>
+              <RefDirection>
+                <IfcDirection id="i150">
+                  <DirectionRatios ex:cType="list">
+                    <ex:double-wrapper pos="0">1.</ex:double-wrapper>
+                    <ex:double-wrapper pos="1">0.</ex:double-wrapper>
+                    <ex:double-wrapper pos="2">0.</ex:double-wrapper>
+                  </DirectionRatios>
+                </IfcDirection>
+              </RefDirection>
+            </IfcAxis2Placement3D>
+          </RelativePlacement>
+        </IfcLocalPlacement>
+      </ObjectPlacement>
+      <Representation>
+        <IfcProductDefinitionShape id="i147">
+          <Representations ex:cType="list">
+            <IfcShapeRepresentation id="i149" pos="0">
+              <ContextOfItems>
+                <IfcGeometricRepresentationContext ref="i9" xsi:nil="true" />
+              </ContextOfItems>
+              <RepresentationIdentifier>Body</RepresentationIdentifier>
+              <RepresentationType>SweptSolid</RepresentationType>
+              <Items ex:cType="set">
+                <IfcExtrudedAreaSolid id="i151" pos="0">
+                  <SweptArea>
+                    <IfcIShapeProfileDef ref="i130" xsi:nil="true" />
+                  </SweptArea>
+                  <Position>
+                    <IfcAxis2Placement3D ref="i14" xsi:nil="true" />
+                  </Position>
+                  <ExtrudedDirection>
+                    <IfcDirection ref="i37" xsi:nil="true" />
+                  </ExtrudedDirection>
+                  <Depth>6</Depth>
+                </IfcExtrudedAreaSolid>
+              </Items>
+            </IfcShapeRepresentation>
+          </Representations>
+        </IfcProductDefinitionShape>
+      </Representation>
+    </IfcBeam>
+    <IfcRelAssociatesMaterial id="i145">
+      <GlobalId>3ee2VNoTz3tezg2vtAZIls</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i3" xsi:nil="true" />
+      </OwnerHistory>
+      <RelatedObjects ex:cType="set">
+        <IfcBeam ref="i144" xsi:nil="true" pos="0" />
+      </RelatedObjects>
+      <RelatingMaterial>
+        <IfcMaterial ref="i74" xsi:nil="true" />
+      </RelatingMaterial>
+    </IfcRelAssociatesMaterial>
+    <IfcRelContainedInSpatialStructure id="i152">
+      <GlobalId>1HMexRLe99Q84edDJqCfqZ</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i3" xsi:nil="true" />
+      </OwnerHistory>
+      <RelatedElements ex:cType="set">
+        <IfcColumn ref="i67" xsi:nil="true" pos="0" />
+        <IfcColumn ref="i92" xsi:nil="true" pos="1" />
+        <IfcColumn ref="i111" xsi:nil="true" pos="2" />
+        <IfcColumn ref="i119" xsi:nil="true" pos="3" />
+        <IfcBeam ref="i128" xsi:nil="true" pos="4" />
+        <IfcBeam ref="i137" xsi:nil="true" pos="5" />
+        <IfcBeam ref="i144" xsi:nil="true" pos="6" />
+      </RelatedElements>
+      <RelatingStructure>
+        <IfcBuildingStorey id="i154">
+          <GlobalId>3xC_nndlX8iAo2kXS18el1</GlobalId>
+          <OwnerHistory>
+            <IfcOwnerHistory ref="i3" xsi:nil="true" />
+          </OwnerHistory>
+          <Name>BASE LEVEL</Name>
+          <CompositionType>element</CompositionType>
+          <Elevation>0</Elevation>
+        </IfcBuildingStorey>
+      </RelatingStructure>
+    </IfcRelContainedInSpatialStructure>
+    <IfcRelAggregates id="i153">
+      <GlobalId>3PMhH8cDjEWRLA7PVmfgGU</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i3" xsi:nil="true" />
+      </OwnerHistory>
+      <RelatingObject>
+        <IfcBuilding ref="i6" xsi:nil="true" />
+      </RelatingObject>
+      <RelatedObjects ex:cType="set">
+        <IfcBuildingStorey ref="i154" xsi:nil="true" pos="0" />
+      </RelatedObjects>
+    </IfcRelAggregates>
+  </uos>
+</ex:iso_10303_28>
